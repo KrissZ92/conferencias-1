@@ -23,4 +23,5 @@ urlpatterns = [
     path('participantes/', views.participantes, name="participantes"),
     path('participantes/<int:id>/eliminar/', views.eliminar_participante, name='eliminar_participante'),
     path('participantes/<int:id>/editar/', views.editar_participante, name='editar_participante'),
+    path('conferencista/', views.conferencista, name="conferencista"),
 ]
